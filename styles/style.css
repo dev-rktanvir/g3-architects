@@ -1,0 +1,110 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Global Css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* container */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Background color */
+.section-bg {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* Section gap */
+.section-gap {
+    margin: 130px 0;
+}
+
+/* Button */
+.btn-primary {
+    background-color: #FF900E;
+    border-radius: 8px;
+    padding: 20px 25px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border: none;
+}
+
+/* Section Heading */
+.section-heading {
+    font-weight: 700;
+    color: #131313;
+    font-size: 2.8125rem;
+}
+
+/* Pragraph text */
+.text {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+    color: #727272;
+}
+
+/* Card design */
+.card {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.flex {
+    display: flex;
+}
+img{
+    width: 100%;
+}
+
+/* ********************** */
+
+/* NavBar style */
+.navBar {
+    justify-content: space-between;
+    align-items: center;
+}
+.navItems{
+    list-style-type: none;
+    gap: 50px;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+}
+.navItem a{
+    text-decoration: none;
+    color: #424242;
+}
+
+/* Header style */
+.header{
+    padding: 50px 0;
+}
+.header-content{
+    max-width: 860px;
+    text-align: center;
+    margin-top: 6.375rem;
+    margin-bottom: 3.125rem;
+}
+.header-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.header-text{
+    margin-top: 1.25rem;
+    margin-bottom: 2rem;
+}
