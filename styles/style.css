@@ -15,10 +15,19 @@
     padding: 0;
 }
 
+.header{
+    font-size: 16px;
+    overflow-x: hidden;
+}
+img{
+    width: 100%;
+}
+
 /* container */
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Background color */
@@ -40,6 +49,7 @@
     font-weight: 600;
     font-size: 1.25rem;
     border: none;
+    cursor: pointer;
 }
 
 /* Section Heading */
@@ -66,9 +76,7 @@
 .flex {
     display: flex;
 }
-img{
-    width: 100%;
-}
+
 
 /* ********************** */
 
@@ -92,6 +100,7 @@ img{
 /* Header style */
 .header{
     padding: 50px 0;
+    text-align: center;
 }
 .header-content{
     max-width: 860px;
@@ -107,4 +116,33 @@ img{
 .header-text{
     margin-top: 1.25rem;
     margin-bottom: 2rem;
+}
+
+/* Quick List section design */
+.quickList{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5.3125rem;
+    gap: 50px;
+}
+.quickList>div{
+    width: 50%;
+}
+.quickList-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.quickList-content{
+    margin-left: 70px;
+}
+.quickList-text{
+    max-width: 537px;
+}
+.span1{
+    font-weight: 500;
+    
+}
+.span2{
+    color: #FF900E;
 }

@@ -1,0 +1,30 @@
+@media screen and (max-width: 576px) {
+
+    /* Global */
+    html {
+        font-size: 12px;
+    }
+
+    .navBar,
+    .quickList {
+        flex-direction: column;
+    }
+
+    /* Navbar */
+    .navLinks {
+        display: none;
+    }
+
+    /* Quick List */
+    .quickList>div {
+        width: 100%;
+    }
+
+    .quickList-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .quickList-content{
+    margin-left: 0px;
+    text-align: center;
+}
+}
