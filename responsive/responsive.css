@@ -4,9 +4,12 @@
     html {
         font-size: 12px;
     }
+    .section-gap {
+    margin: 70px 0;
+}
 
     .navBar,
-    .quickList {
+    .quickList, .feature {
         flex-direction: column;
     }
 
@@ -26,5 +29,20 @@
     .quickList-content{
     margin-left: 0px;
     text-align: center;
+}
+
+/* Feature section */
+.feature {
+    gap: 50px;
+}
+.feature-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.feature-btn {
+    margin-top: -60px;
+    margin-left: 0;
 }
 }
