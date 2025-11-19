@@ -9,7 +9,9 @@
 }
 
     .navBar,
-    .quickList, .feature {
+    .quickList,
+    .feature,
+    .fact-cards {
         flex-direction: column;
     }
 

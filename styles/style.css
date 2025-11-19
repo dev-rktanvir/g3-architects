@@ -74,6 +74,8 @@ img {
 .card {
     border: 1px solid #FF900E;
     border-radius: 8px;
+    padding: 45px;
+    text-align: center;
 }
 
 .flex {
@@ -198,4 +200,24 @@ img {
     font-size: 4.0625rem;
     line-height: 4.375rem;
     color: white;
+}
+
+/* Fact section style */
+.fact-cards{
+    justify-content: space-around;
+    gap: 20px;
+}
+.card-content img{
+    width: 45px;
+    height: 45px;
+}
+.card-content h4{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.card-content p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
 }
