@@ -1,12 +1,14 @@
+/* Responsive for small devices */
 @media screen and (max-width: 576px) {
 
     /* Global */
     html {
         font-size: 12px;
     }
+
     .section-gap {
-    margin: 70px 0;
-}
+        margin: 70px 0;
+    }
 
     .navBar,
     .quickList,
@@ -28,28 +30,80 @@
     .quickList-img {
         grid-template-columns: repeat(1, 1fr);
     }
-    .quickList-content{
-    margin-left: 0px;
-    text-align: center;
+
+    .quickList-content {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    /* Feature section */
+    .feature {
+        gap: 50px;
+    }
+
+    .feature-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .feature-btn {
+        margin-top: -60px;
+        margin-left: 0;
+    }
+
+    /* Facts Section */
+    .fact-cards {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 40px 0;
+    }
 }
 
-/* Feature section */
-.feature {
-    gap: 50px;
-}
-.feature-cards{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    
-}
-.feature-btn {
-    margin-top: -60px;
-    margin-left: 0;
-}
+/* Responsive for medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
 
-/* Facts Section */
-.fact-cards{
-    margin: 40px 0;
-}
+    /* Global */
+    .navBar,
+    .quickList,
+    .feature,
+    .fact-cards {
+        flex-direction: column;
+    }
+
+    .section-gap {
+        margin: 70px 0;
+    }
+
+    /* Quick List */
+    .quickList>div {
+        width: 100%;
+    }
+
+    .quickList-img {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .quickList-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    /* Feature section */
+    .feature {
+        gap: 50px;
+    }
+
+    .feature-btn {
+        margin-left: 0;
+    }
+
+    /* Facts Section */
+    .fact-cards {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 40px 0;
+    }
 }
